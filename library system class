@@ -1,0 +1,20 @@
+class Library {
+    int bookId;
+    String bookName;
+    String author;
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Library b1 = new Library();
+
+        b1.bookId = 1;
+        b1.bookName = "Java Programming";
+        b1.author = "James Gosling";
+
+        System.out.println("Book ID: " + b1.bookId);
+        System.out.println("Book Name: " + b1.bookName);
+        System.out.println("Author: " + b1.author);
+    }
+}
