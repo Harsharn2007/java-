@@ -1,0 +1,19 @@
+public class AreaCalculator {
+    public static void main(String[] args) {
+
+        // Circle
+        int r = 5;
+        double circle = 3.14 * r * r;
+        System.out.println("Area of Circle = " + circle);
+
+        // Rectangle
+        int l = 4, w = 3;
+        int rectangle = l * w;
+        System.out.println("Area of Rectangle = " + rectangle);
+
+        // Triangle
+        int b = 6, h = 2;
+        double triangle = 0.5 * b * h;
+        System.out.println("Area of Triangle = " + triangle);
+    }
+}
