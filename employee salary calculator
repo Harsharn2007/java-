@@ -1,0 +1,15 @@
+public class SalaryCalculator {
+    public static void main(String[] args) {
+
+        int basic = 10000;
+
+        double hra = 0.20 * basic;   // 20% HRA
+        double da = 0.10 * basic;    // 10% DA
+        double totalSalary = basic + hra + da;
+
+        System.out.println("Basic Salary = " + basic);
+        System.out.println("HRA = " + hra);
+        System.out.println("DA = " + da);
+        System.out.println("Total Salary = " + totalSalary);
+    }
+}
